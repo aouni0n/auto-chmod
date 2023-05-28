@@ -4,7 +4,6 @@ The "chmod Command Prompt" is a Python script that allows you to interactively c
 
 ## Features
 
-- Displays an ASCII art representation of "AOUNION."
 - Provides descriptions of `chmod` commands from 1 to 10.
 - Prompts you to choose a `chmod` command by entering a number between 1 and 10.
 - Executes the chosen `chmod` command on the specified file location.
