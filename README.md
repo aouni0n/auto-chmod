@@ -1,6 +1,6 @@
 # chmod Command Prompt
 
-The "chmod Command Prompt" is a Python script that allows you to interactively choose a `chmod` command and execute it on a specified file location. It displays an ASCII art representation of "AOUNION" and provides descriptions of different `chmod` commands for you to choose from.
+The "chmod Command Prompt" is a Python script that allows you to interactively choose a `chmod` command and execute it on a specified file location. It provides descriptions of different `chmod` commands for you to choose from.
 
 ## Features
 
