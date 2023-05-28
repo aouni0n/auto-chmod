@@ -19,5 +19,5 @@ The "chmod Command Prompt" is a Python script that allows you to interactively c
 5. The script will display a prompt you to enter a number between 1 and 10 for a `chmod` command. Choose a command by entering the corresponding number and press Enter. Then, enter the file location on which you want to execute the `chmod` command and press Enter.
 6. The script will execute the chosen `chmod` command on the specified file location.
 
-##Note
+## Note
   The script uses the os.system() function to execute the chmod command, so ensure that you have appropriate permissions to modify the file's permissions.
