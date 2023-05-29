@@ -70,7 +70,16 @@ ascii_art = r"""
 The "chmod Command Prompt" is a Python script that enables interactive execution of chmod commands on a specified file location.
 With a user-friendly prompt interface, it simplifies the process of modifying file permissions. The script provides descriptions 
 for various chmod commands, allowing users to select a command and specify the file location for seamless permission modification.
-
+    1:  Add execute permission for the owner (u+x),
+    2:  Set read and write permissions for the owner, and no permissions for the group and others (u=rw,go=),
+    3:  Set read, write, and execute permissions for the owner, and read and execute permissions for the group and others (755),
+    4:  Add write permission for the group (g+w),
+    5:  Set read-only permission for others (o=r),
+    6:  Add execute permission for all (a+x),
+    7:  Set read and write permissions for the owner, and read-only permissions for the group and others (644),
+    8:  Set read, write, and execute permissions for all (ugo+rwx),
+    9:  Remove execute permission for others (o-x),
+    10: Set read permission for the owner, and read and execute permissions for the group and others (u=r,go=rx)
 """
 
 print(ascii_art)
